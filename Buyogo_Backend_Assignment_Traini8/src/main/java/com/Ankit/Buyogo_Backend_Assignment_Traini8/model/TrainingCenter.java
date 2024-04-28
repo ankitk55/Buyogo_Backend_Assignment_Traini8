@@ -20,6 +20,8 @@ public class TrainingCenter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long trainingCenterId;
+
+    @NotBlank(message = "Invalid input !!..., Provide valid Center_Name..")
     @Column(unique = true)
     @NotNull(message = "Invalid input !!...,  Provide valid Center_Name..")
     @Length(max = 39,message = "maximum length Exceed.. ,Only Less than 40 characters Accepted.. ")

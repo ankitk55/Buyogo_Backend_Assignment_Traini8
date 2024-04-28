@@ -1,5 +1,6 @@
 package com.Ankit.Buyogo_Backend_Assignment_Traini8.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,6 +20,7 @@ import lombok.NoArgsConstructor;
 public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Long addressId;
 
     @NotBlank(message = "Invalid input !!..., Provide Detailed Address..")
