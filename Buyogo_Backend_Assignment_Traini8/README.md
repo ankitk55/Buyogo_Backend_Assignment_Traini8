@@ -186,13 +186,13 @@ The Swagger configuration (`OpenApiConfig` class) provides support for interacti
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Tanisht48/CarbonCellAssignment.git
+   git clone https://github.com/ankitk55/Buyogo_Backend_Assignment_Traini8.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd CarbonCellAssignment
+   cd Buyogo_Backend_Assignment_Traini8
    ```
 
 3. Build the project using Maven:
